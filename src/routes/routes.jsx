@@ -2,7 +2,8 @@ import AboutView from '../views/aboutView'
 import FavoritesView from '../views/favoritesView'
 import DesconocidoView from '../views/desconocidoView'
 
-const homeSwitchItems = [
+const routes = [
+    // Views
     {
         path: '/',
         component: AboutView
@@ -17,4 +18,4 @@ const homeSwitchItems = [
     },
 ]
 
-export default homeSwitchItems
+export default routes
